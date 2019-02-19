@@ -22,7 +22,7 @@ spec:
         kind: ServiceAccount
         metadata:
           name: c1--svcacc
-  - name: c1--pdb
+  - name: c1--minavail-0--pdb
     spec:
       object:
         apiVersion: policy/v1beta1
@@ -145,7 +145,7 @@ spec:
         kind: ServiceAccount
         metadata:
           name: c2--svcacc
-  - name: c2--pdb
+  - name: c2--minavail-0--pdb
     spec:
       object:
         apiVersion: policy/v1beta1
